@@ -24,7 +24,10 @@ You can either clone or download the project from GitHub to your local machine.
 
 ### 2. Place the Project Files in the XAMPP Directory
 Once you have downloaded or cloned the repository, follow these steps:
--Copy all the project files into the C:\xampp\htdocs directory. This is where XAMPP serves files for local development.
+
+-Copy all the project files into the C:\xampp\htdocs directory. 
+
+This is where XAMPP serves files for local development.
 
 For example:
 --If your project folder is named job-portal, the path should be C:\xampp\htdocs\job-portal.
@@ -33,16 +36,27 @@ For example:
 
 ### 3. Import the Database Using database.sql
 To set up the MySQL database, follow these steps:
+
 Open XAMPP Control Panel and start both Apache and MySQL services.
+
 Ensure that both services are running properly. If not, you may need to troubleshoot the configuration.
+
 Once Apache and MySQL are running, navigate to http://localhost/phpmyadmin/ in your web browser.
+
 In phpMyAdmin, create a new database:
+
 Click on the Databases tab.
+
 Enter job_portal as the database name and click Create.
+
 After creating the database, click on the newly created database (job_portal) from the list on the left.
+
 Go to the Import tab in phpMyAdmin.
+
 Click on Choose File and select the database.sql file from your project folder.
+
 Once the file is uploaded, click Go to import the SQL file.
+
 This will create all the necessary tables in the job_portal database.
 
 ### 4. Run the Project
